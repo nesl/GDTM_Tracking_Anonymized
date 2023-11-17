@@ -1,0 +1,10 @@
+cython==0.29.34
+numpy==1.24.3
+motmetrics==1.4.0
+seaborn==0.12.2
+h5py==3.8.0
+tqdm==4.65.0
+ipdb==0.13.13
+future==0.18.3
+tensorboard==2.13.0
+pyro-ppl==1.8.0
