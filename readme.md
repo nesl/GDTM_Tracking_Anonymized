@@ -2,11 +2,11 @@
 
 # GDTM-Tracking
 
-**GDTM** is a new multi-hour dataset collected with a network of multimodal sensors for the indoor geospatial tracking problem. It features time-synchronized steoreo-vision camera, LiDAR camera, mmWave radar, and microphone arrays, as well as ground truth data containing the position and orientations of the sensing target (remote controlled cars on a indoor race track) and the sensor nodes. For details of the dataset please refer to [GitHub](https://github.com/nesl/GDTM) and PDF (still under review).
+**GDTM** is a new multi-hour dataset collected with a network of multimodal sensors for the indoor geospatial tracking problem. It features time-synchronized steoreo-vision camera, LiDAR camera, mmWave radar, and microphone arrays, as well as ground truth data containing the position and orientations of the sensing target (remote controlled cars on a indoor race track) and the sensor nodes. For details of the dataset please refer to [GitHub](https://anonymous.4open.science/r/GDTM_Anonymized-4469/README.md) and PDF (still under review).
 
 This repository contains our baseline applications described in PDF (still under review) built to use GTDM data. It features two architectures (early fusion and late fusion and two choices of sensor sets (camera only and all-modalities) to track the locations of a target RC car.
 
-**Note** for dataset documentation and pre-processing, please refer to [GitHub](https://github.com/nesl/GDTM).
+**Note** for dataset documentation and pre-processing, please refer to [GitHub](https://anonymous.4open.science/r/GDTM_Anonymized-4469/README.md).
 
 
 
@@ -24,15 +24,15 @@ We only release the early fusion, all modalities version of the model. Further v
 
 
 
-As step one, please clone the desired branch using terminal
+As step one, please clone the desired branch using terminal. It is not possible to clone the anonymous repo, and these instructions will be updated before the camera-ready. 
 ```
 cd ~/Desktop
-git clone https://github.com/nesl/GDTM-tracking.git
+git clone https://anonymous.4open.science/r/GDTM_Anonymized-4469.git
 ```
 or
 ```
 cd ~/Desktop
-git clone --branch <branchname> https://github.com/nesl/GDTM-tracking.git
+git clone --branch <branchname> https://anonymous.4open.science/r/GDTM_Anonymized-4469.git
 ```
 
 ### Install Dependencies
@@ -71,7 +71,7 @@ pip install  -v  -e  .
 Please visit the [data repository](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link) for sample data to test this repository. Due to constraints of uploading data to an anonymous google drive, we have only provided two instances of the data, good lighting (view 3) and poor lighting (view 6) under single-view and all modality conditions, for only the test data. 
 
 #### Full dataset
-We are going to release the full dataset on a later date. Check for updates at [GitHub](https://github.com/nesl/GDTM).
+We are going to release the full dataset on a later date. Check for updates at [GitHub](https://anonymous.4open.science/r/GDTM_Anonymized-4469/README.md).
 
 #### Unzip the data
 
