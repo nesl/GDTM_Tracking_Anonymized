@@ -68,8 +68,7 @@ pip install  -v  -e  .
 
 ## Data Preparation
 #### Sample dataset
-Please visit the [data repository](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link) for sample data to test this repository. Due to constraints of uploading data to an anonymous google drive, we have only provided two instances of the data, good lighting and poor lighting under single-view and all modality conditions. 
-["Sample Data"](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link)
+Please visit the [data repository](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link) for sample data to test this repository. Due to constraints of uploading data to an anonymous google drive, we have only provided two instances of the data, good lighting (view 3) and poor lighting (view 6) under single-view and all modality conditions, for only the test data. 
 
 #### Full dataset
 We are going to release the full dataset on a later date. Check for updates at [GitHub](https://github.com/nesl/GDTM).
@@ -92,7 +91,7 @@ The final data structure should be like following:
 	│   │   └── same as node 1  
 	│   └── mocap.hdf5
 	├── train/
-	│   └── same sa test
+	│   └── same as test
 	└── val/
 	    └── same as test
 ```
@@ -104,12 +103,11 @@ e.g. ~/Desktop/... -> /home/USER_NAME/Desktop/...
 
 ## Code Usage
 ### Make Inference Using A Checkpoint (Testing)
-Please download the pretrained checkpoints [Here](https://drive.google.com/drive/folders/1Bm6PZZYlW0uiAYI7mUdmd0P-SEFDTnvq?usp=sharing).
+Please download the pretrained checkpoints [here](https://drive.google.com/drive/folders/17RXrXc4Qd0yKhGVMyyZxVxF9NrwolRgn?usp=sharing).
 
 Note that for single-view case (Baseline 1 in the paper), please make sure to use the checkpoints corresponding to the code and data of your choice. 
 
-For example, if we use view 3 data (signle view, good lighting condition) and master branch code (single view, early fusion, all modalities), we should download
-["Checkpoints/Single-view/Early Fusion/All Modalities/logs_sae_goodlight_view3.zip"](https://drive.google.com/file/d/1oPoZO_8p5DqpiNWF9FqtBGxbW7f3rrNw/view?usp=sharing)
+For example, if we use view 3 data (single view, good lighting condition) and master branch code (single view, early fusion, all modalities), we should download "dataset_singleview3.zip". 
 
 After downloading the checkpoint, please rename it to **logs/** and put it under "mmtracking" folder using this hierachy. 
 
