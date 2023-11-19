@@ -68,10 +68,8 @@ pip install  -v  -e  .
 
 ## Data Preparation
 #### Sample dataset
-Please visit the [data repository](https://drive.google.com/drive/folders/1oj75d7x11Y51g2lkLlLWog-bJZGKDPgG?usp=sharing) for a sample data to test this repository.
-
-Note that the configuration of the data need to be the same as the branch of your choice. For example, the master branch code is configured as (single view, early fusion, all modalities). If you would like to test this code in good lighting condition data, you should go to
-["SampleData/SingleView/Good Lighting Conditions/dataset_singleview3.zip"](https://drive.google.com/file/d/1c72LTUa9Uz90r_2iO9LBxz9bHoS-V-fi/view?usp=sharing)
+Please visit the [data repository](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link) for sample data to test this repository. Due to constraints of uploading data to an anonymous google drive, we have only provided two instances of the data, good lighting and poor lighting under single-view and all modality conditions. 
+["Sample Data"](https://drive.google.com/drive/folders/1ccdCBq1Xh9tW6CHoGbzizIo79T18nMfo?usp=drive_link)
 
 #### Full dataset
 We are going to release the full dataset on a later date. Check for updates at [GitHub](https://github.com/nesl/GDTM).
